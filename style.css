@@ -1,0 +1,44 @@
+.container
+{
+    width: 33%;
+    margin: 100px auto;
+}
+#res
+{
+    background-color: #ffffff;
+    border: solid;
+    font-size: 30px;
+    word-wrap: break-word;
+    height: 70px;
+    overflow-y:scroll;
+}
+#btn0, #btn1
+{
+    background-color: lightgreen;
+    color: brown;
+}
+#btnClr, #btnEql
+{
+    background-color: darkgreen;
+    color: white;
+}
+#btnSum, #btnSub, #btnMul, #btnDiv
+{
+    background-color: black;
+    color: rgb(0, 255, 166);
+}
+/* 
+#btns
+{
+    font-size: 0;
+} 
+instead of this I have used float:left; property in child
+*/
+#btns button
+{
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+}
